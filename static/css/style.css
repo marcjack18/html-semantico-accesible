@@ -3,12 +3,12 @@
 :root {
     --margin--section: 10%;
     --color-primary: #FFFFFF;
-    --color-secondary: #a67b00;
-    --color-gradient-start: #e7961c;
+    --color-secondary: #8c6700;
+    --color-gradient-start: #8c6700;
     --color-gradient-end: #ffd000;
     --color-accent: #452424;
     --color-gold-text: #8c6700;
-    --color-section-title: #000000;
+    --color-section-title: #8c6700;
     --color-subsection-title: #4a4444;
     --background-section: #777676;
     --background-card: #FFFFFF;
@@ -450,7 +450,7 @@ a {
         }
 
         & .span-gold {
-            color: var(--color-gold-text);
+            color: var(--color-gold-text) !important;
             font-size: var(--fs-h1); 
             font-family: 'Brush Script MT', cursive;
             font-weight: normal;
