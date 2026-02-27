@@ -1100,7 +1100,7 @@ a {
             cursor: pointer;
             padding: 5px 0;
             position: relative;
-            text-decoration: none;
+            text-decoration: underline;
 
             &:hover {
                 color: var(--color-gradient-start);
