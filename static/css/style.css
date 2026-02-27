@@ -1490,6 +1490,7 @@ a {
         font-style: normal;
         
         & p {
+            text-decoration: underline;
             margin-bottom: var(--space-2);
             display: flex;
             align-items: center;
@@ -1514,6 +1515,7 @@ a {
 
         & a {
             display: flex;
+            text-decoration: underline;
             align-items: center;
             justify-content: center;
             width: var(--space-4);
